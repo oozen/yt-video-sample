@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #181818;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  .wrapper {
+    color: #fff;
+    iframe {
+      border: 10px solid black !important;
+      box-shadow: 0 8px 6px -6px black;  
+    }
+    .title {
+      margin-top:10px;
+      color: #888;
+      font-size: 1.2em;
+    }
+    .message {
+      margin: 20px 0;
+      color:#d4e01c;
+    }
+
+    .percent {
+      width: 30%;
+      margin:0 auto;
+      font-size: 2em;
+      color: #1cc5e0;
+      padding: 10px;
+      background-color: #232323;
+      box-shadow: 0 8px 6px -6px black;
+      border-radius: 3px;
+    }
+  }
+}
+
+
+
+
