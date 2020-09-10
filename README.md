@@ -1,5 +1,5 @@
 # yt-video-sample
-Youtube video sample project. This sample application demonstrates implementing Youtube Iframe Api with event capturing.
+Youtube video api sample project. This sample application demonstrates implementing Youtube Iframe Api with controlling callback events like Play, Pause etc.
 
 # how to run the app
 `npm install`  
